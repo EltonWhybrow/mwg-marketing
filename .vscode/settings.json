@@ -3,5 +3,6 @@
         "activityBar.background": "#59140A",
         "titleBar.activeBackground": "#7C1C0E",
         "titleBar.activeForeground": "#FFFCFC"
-    }
+    },
+    "editor.formatOnSave": true
 }

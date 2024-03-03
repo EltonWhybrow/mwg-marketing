@@ -9,7 +9,7 @@
 					{
 						"type": "heading1",
 						"content": {
-							"text": "Spider lorem",
+							"text": "Spider lorem shiz",
 							"spans": []
 						},
 						"direction": "ltr"
@@ -22,8 +22,10 @@
 					{
 						"type": "paragraph",
 						"content": {
-							"text": "Culpa nulla cupidatat non ullamco."
-						}
+							"text": "Culpa nulla cupidatat non ullamco. Culpa nulla cupidatat non ullamco. Culpa nulla cupidatat non ullamco.",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			},
