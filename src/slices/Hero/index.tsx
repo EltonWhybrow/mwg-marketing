@@ -1,5 +1,5 @@
-import Bounded from "@/components/Bounded";
 import Button from "@/components/Button";
+import Bounded from "@/components/Bounded";
 import Heading from "@/components/Heading";
 import { Content } from "@prismicio/client";
 import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";

@@ -38,18 +38,36 @@ export type FeaturesProps = SliceComponentProps<Content.FeaturesSlice>;
  */
 const Features = ({ slice }: FeaturesProps): JSX.Element => {
 	return (
-		<Bounded data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
-			<PrismicRichText components={components} field={slice.primary.heading} />
-			<div className="mx-auto grid sm:grid-cols-2 lg:grid-cols-4 max-w-5xl gap-x-8 gap-y-12 sm:place-items-start place-items-center">
-				{slice.items.map((item, index) => (
-					<div key={index} className="max-w-sm grid sm:place-items-start place-items-center">
-						{item.icon && <div className="mb-5">{icons[item.icon]} </div>}
-						<PrismicRichText components={components} field={item.title} />
-						<PrismicRichText components={components} field={item.description} />
+		<>
+			{slice.variation === "default" && (
+				<Bounded data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
+					<PrismicRichText components={components} field={slice.primary.heading} />
+					<div className="mx-auto grid sm:grid-cols-2 lg:grid-cols-4 max-w-5xl gap-x-8 gap-y-12 sm:place-items-start place-items-center">
+						{slice.items.map((item, index) => (
+							<div key={index} className="max-w-sm grid sm:place-items-start place-items-center">
+								{item.icon && <div className="mb-5">{icons[item.icon]} </div>}
+								<PrismicRichText components={components} field={item.title} />
+								<PrismicRichText components={components} field={item.description} />
+							</div>
+						))}
 					</div>
-				))}
-			</div>
-		</Bounded>
+				</Bounded>
+			)}
+			{slice.variation === "gridWith3" && (
+				<Bounded data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
+					<PrismicRichText components={components} field={slice.primary.heading} />
+					<div className="mx-auto grid grid-cols-1 md:grid-cols-3 max-w-5xl gap-x-8 gap-y-12 place-items-center">
+						{slice.items.map((item, index) => (
+							<div key={index} className="max-w-sm grid sm:place-items-start place-items-center">
+								{item.icon && <div className="mb-5">{icons[item.icon]} </div>}
+								<PrismicRichText components={components} field={item.title} />
+								<PrismicRichText components={components} field={item.description} />
+							</div>
+						))}
+					</div>
+				</Bounded>
+			)}
+		</>
 	);
 };
 
