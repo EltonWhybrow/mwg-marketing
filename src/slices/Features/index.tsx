@@ -9,7 +9,7 @@ import CloverIcon from "@/components/CloverIcon";
 
 const components: JSXMapSerializer = {
 	heading2: ({ children }) => (
-		<Heading as="h2" size="md" className="text-center mb-10">
+		<Heading as="h2" size="md" className="mb-0 text-center mb-10">
 			{children}
 		</Heading>
 	),
