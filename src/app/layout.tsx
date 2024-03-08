@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import clsx from "clsx";
 import { Nunito, Nunito_Sans } from "next/font/google";
 import { createClient } from "@/prismicio";
-import { PrismicPreview } from "@prismicio/next";
-import { repositoryName } from "@/prismicio";
+// import { PrismicPreview } from "@prismicio/next";
+// import { repositoryName } from "@/prismicio";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -45,7 +45,7 @@ export default function RootLayout({
 				{children}
 				<Footer />
 			</body>
-			<PrismicPreview repositoryName={repositoryName} />
+			{/* <PrismicPreview repositoryName={repositoryName} /> */}
 			{/* mwg-marketing */}
 		</html>
 	);
