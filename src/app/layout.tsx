@@ -47,6 +47,7 @@ export default function RootLayout({
 			</body>
 			<PrismicPreview repositoryName={repositoryName} />
 			{/* mwg-marketing */}
+			{/* <div className="opacity-50 inset-0 bg-gradient-to-tr from-cyan-50 to-emerald-50 z-[-1] fixed"></div> */}
 		</html>
 	);
 }
