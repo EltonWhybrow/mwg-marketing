@@ -24,8 +24,8 @@ export async function generateMetadata(): Promise<Metadata> {
 	const client = createClient();
 	const settings = await client.getSingle("settings");
 	return {
-		title: settings.data.site_title || "MWG Marketing",
-		description: settings.data.meta_description || "MWG marketing funnel",
+		title: settings.data.site_title || "Beto CMS ",
+		description: settings.data.meta_description || "A better content management",
 		openGraph: {
 			images: [settings.data.og_image.url || ""],
 		},
@@ -46,7 +46,6 @@ export default function RootLayout({
 				<div className="opacity-50 inset-0 bg-gradient-to-tr from-cyan-50 to-emerald-50 z-[-1] fixed"></div>
 				<PrismicPreview repositoryName={repositoryName} />
 			</body>
-			{/* mwg-marketing */}
 		</html>
 	);
 }

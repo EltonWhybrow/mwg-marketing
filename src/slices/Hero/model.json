@@ -16,7 +16,7 @@
           "type": "StructuredText",
           "config": {
             "label": "Heading",
-            "placeholder": "MWG placeholder",
+            "placeholder": "placeholder",
             "allowTargetBlank": true,
             "multi": "heading1"
           }
@@ -68,7 +68,7 @@
           "type": "StructuredText",
           "config": {
             "label": "Heading",
-            "placeholder": "MWG placeholder",
+            "placeholder": "Placeholder",
             "allowTargetBlank": true,
             "multi": "heading1"
           }
