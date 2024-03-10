@@ -12,7 +12,7 @@ function Icon() {
 						A better content management
 					</tspan>
 				</text>
-				<path fill="" stroke="#0e7590" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M139 5h169v82H139z"></path>
+				<path fill="#FFF" stroke="#0e7590" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M139 5h169v82H139z"></path>
 				<text fill="#0e7590" fontFamily="PricedownBl-Regular, Pricedown" fontSize="75" fontWeight="800">
 					<tspan x="155.2" y="65">
 						CMS

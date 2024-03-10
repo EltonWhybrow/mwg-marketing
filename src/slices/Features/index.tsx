@@ -45,7 +45,7 @@ const Features = ({ slice }: FeaturesProps): JSX.Element => {
 					<div className="mx-auto grid sm:grid-cols-2 lg:grid-cols-4 max-w-5xl gap-x-8 gap-y-12 sm:place-items-start place-items-center">
 						{slice.items.map((item, index) => (
 							<div key={index} className="max-w-sm grid sm:place-items-start place-items-center">
-								{item.icon && <div className="mb-5">{icons[item.icon]} </div>}
+								{item.icon && <div className="mb-5 mx-auto">{icons[item.icon]} </div>}
 								<PrismicRichText components={components} field={item.title} />
 								<PrismicRichText components={components} field={item.description} />
 							</div>
@@ -59,7 +59,7 @@ const Features = ({ slice }: FeaturesProps): JSX.Element => {
 					<div className="mx-auto grid grid-cols-1 md:grid-cols-3 max-w-5xl gap-x-8 gap-y-12 place-items-center">
 						{slice.items.map((item, index) => (
 							<div key={index} className="max-w-sm grid sm:place-items-start place-items-center">
-								{item.icon && <div className="mb-5">{icons[item.icon]} </div>}
+								{item.icon && <div className="mb-5 mx-auto">{icons[item.icon]} </div>}
 								<PrismicRichText components={components} field={item.title} />
 								<PrismicRichText components={components} field={item.description} />
 							</div>
