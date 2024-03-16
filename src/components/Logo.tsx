@@ -2,22 +2,22 @@ function Icon() {
 	return (
 		<svg xmlns="http://www.w3.org/2000/svg" width="316" height="124">
 			<g fill="none" fillRule="evenodd">
-				<text fill="#0e7590" fontFamily="STHeitiSC-Light, Heiti SC" fontSize="55" fontWeight="300">
-					<tspan x="-0.1" y="90">
-						BETO
-					</tspan>
-				</text>
-				<text fill="#0e7590" fontFamily="STHeitiSC-Light, Heiti SC" fontSize="20" fontWeight="300">
+				<path
+					fill="#0E7490"
+					fillRule="nonzero"
+					d="M15.6 86.7c3.8 0 6.9-1 9.3-3.2 2.4-2.2 3.6-4.9 3.6-8.1 0-2.5-.7-4.5-2.2-6.3-1.4-1.8-3.4-3-6.1-4 1.6-.8 2.9-2 3.7-3.5.9-1.4 1.3-3 1.3-4.7 0-3.1-1-5.5-3.2-7.2a15.1 15.1 0 00-9.4-2.5H4.8v39.5h10.8zm-4.7-23H8.7V51.1h4.5c5.3 0 8 1.9 8 5.8 0 2.3-.9 4-2.6 5.2a14.3 14.3 0 01-7.7 1.6zm2.7 19.1h-5v-15H11c3.5 0 6 .2 7.2.5 1.4.4 2.5 1 3.4 1.7 1 .7 1.6 1.5 2.1 2.5s.7 2 .7 3.3c0 1.2-.4 2.5-1.2 3.7-.9 1.1-2 2-3.3 2.6a17 17 0 01-6.2.8zm45.2 3.9v-4H40.2V67.4h18.6v-3.9H40.2V51.1H59v-3.9H36.3v39.5h22.5zm15.9 0V51.1h8.8v-3.9H61.8v3.9h8.8v35.6h4zm33.6 1a20.7 20.7 0 10-.2-41.5 20.6 20.6 0 00-20.7 21A20.2 20.2 0 0097.8 85a21 21 0 0010.5 2.7zm0-3.9c-4.7 0-8.6-1.6-11.9-4.9a16.3 16.3 0 01-4.9-12A16.6 16.6 0 01120 55c3.3 3.3 5 7.3 5 12 0 5-1.7 9-5 12.2a16.2 16.2 0 01-11.7 4.7z"
+				></path>
+				<text fill="#0E7490" fontFamily="STHeitiSC-Light, Heiti SC" fontSize="20" fontWeight="300">
 					<tspan x="4.3" y="114">
 						A better content management
 					</tspan>
 				</text>
-				<path fill="#FFF" stroke="#0e7590" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M139 5h169v82H139z"></path>
-				<text fill="#0e7590" fontFamily="PricedownBl-Regular, Pricedown" fontSize="75" fontWeight="800">
-					<tspan x="155.2" y="65">
-						CMS
-					</tspan>
-				</text>
+				<path stroke="#0E7490" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M139 5h169v82H139z"></path>
+				<path
+					fill="#0E7490"
+					fillRule="nonzero"
+					d="M184.3 65c5.2 0 7.8-2 7.8-6V41.8h-15.6V53c0 .1 0 .2-.2.2h-3.5c-.1 0-.2 0-.2-.2V29.2l.2-.1h3.5l.2.1v8.1H192V23.2c0-4.1-2.6-6.1-7.8-6.1h-19.5c-5.2 0-7.8 2-7.8 6v36c0 4 2.6 5.9 7.8 5.9h19.5zM289 80V68h-38.6l-.1-.2v-44a5 5 0 00-.8-2.7 7.1 7.1 0 00-2-2.2c-.9-.5-1.9-1-3-1.3-1.2-.4-2.5-.5-3.8-.5-2.5 0-4.6.2-6.3.7a8.2 8.2 0 00-4.3 2.9 8 8 0 00-3.2-2.7c-1.3-.6-3-1-5.4-1-2.2 0-4.2.3-6 .9a9 9 0 00-4 2.3V17h-15.7v48h15.6V29.2l.2-.1h3.5l.1.1V65h15.6V29.2l.2-.1h3.7l.1.1V74c0 .8.2 1.5.7 2.2.4.7 1 1.4 1.8 2a9.6 9.6 0 005.3 1.7H289zm-7.8-15c5.2 0 7.8-2 7.8-6V41c0-4-2.6-6-7.8-6h-11.7v-5.8l.2-.1h3.5l.2.1V32H289v-8.9c0-4-2.6-6-7.8-6h-19.5c-5.2 0-7.8 2-7.8 6V41c0 4 2.6 6 7.8 6h11.5l.2.2V53c0 .1 0 .2-.2.2h-3.5c-.1 0-.2 0-.2-.2v-2.8H254v9c0 4 2.6 5.9 7.8 5.9h19.5z"
+				></path>
 			</g>
 		</svg>
 	);
