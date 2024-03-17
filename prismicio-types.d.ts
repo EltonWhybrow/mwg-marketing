@@ -538,7 +538,7 @@ export interface HeroSliceDefaultPrimary {
    * Heading field in *Hero → Primary*
    *
    * - **Field Type**: Rich Text
-   * - **Placeholder**: MWG placeholder
+   * - **Placeholder**: placeholder
    * - **API ID Path**: hero.primary.heading
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
@@ -606,7 +606,7 @@ export interface HeroSliceHorizontalPrimary {
    * Heading field in *Hero → Primary*
    *
    * - **Field Type**: Rich Text
-   * - **Placeholder**: MWG placeholder
+   * - **Placeholder**: Placeholder
    * - **API ID Path**: hero.primary.heading
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */

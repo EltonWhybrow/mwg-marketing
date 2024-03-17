@@ -3,10 +3,11 @@ import type { Metadata } from "next";
 import clsx from "clsx";
 import { Nunito, Nunito_Sans } from "next/font/google";
 import { createClient, repositoryName } from "@/prismicio";
-import { PrismicPreview } from "@prismicio/next";
+import { PrismicNextLink, PrismicPreview } from "@prismicio/next";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { PrismicText } from "@prismicio/react";
 
 const nunito = Nunito({
 	subsets: ["latin"],
@@ -32,7 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
 	};
 }
 
-export default function RootLayout({
+export default async function RootLayout({
 	children,
 }: Readonly<{
 	children: React.ReactNode;
